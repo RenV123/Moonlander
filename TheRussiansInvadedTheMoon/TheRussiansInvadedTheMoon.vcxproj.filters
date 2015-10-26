@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Bullet">
+      <UniqueIdentifier>{179fdc4e-c412-4c06-a0d7-bb5bb2e876e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Blackhole">
+      <UniqueIdentifier>{8e8459ed-8940-4b70-af32-8cdc7bb423f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Moonlander">
+      <UniqueIdentifier>{1acd6406-541c-4485-be8a-b11019ed4a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Russianbase">
+      <UniqueIdentifier>{d32d323a-adfe-46f5-b884-a0841e8a4e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Fuelbase">
+      <UniqueIdentifier>{7781ea7b-87bf-4cc9-9222-b89202126931}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheRussiansInvadedTheMoon.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWinMain.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractGame.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletList.h">
+      <Filter>Game Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackhole.h">
+      <Filter>Game Files\Blackhole</Filter>
+    </ClInclude>
+    <ClInclude Include="Moonlander.h">
+      <Filter>Game Files\Moonlander</Filter>
+    </ClInclude>
+    <ClInclude Include="Russianbase.h">
+      <Filter>Game Files\Russianbase</Filter>
+    </ClInclude>
+    <ClInclude Include="RussianBaseBullet.h">
+      <Filter>Game Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuelbase.h">
+      <Filter>Game Files\Fuelbase</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TheRussiansInvadedTheMoon.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWinMain.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractGame.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletList.cpp">
+      <Filter>Game Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Blackhole.cpp">
+      <Filter>Game Files\Blackhole</Filter>
+    </ClCompile>
+    <ClCompile Include="Moonlander.cpp">
+      <Filter>Game Files\Moonlander</Filter>
+    </ClCompile>
+    <ClCompile Include="Russianbase.cpp">
+      <Filter>Game Files\Russianbase</Filter>
+    </ClCompile>
+    <ClCompile Include="RussianBaseBullet.cpp">
+      <Filter>Game Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Fuelbase.cpp">
+      <Filter>Game Files\Fuelbase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TheRussiansInvadedTheMoon.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="big.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿Build started 08/10/2015 21:03:19.
+     1>Project "C:\Users\Rene\Documents\DAE\Portfolio\possible work\Lab08_Game_Assignment physics game\AMP2Game Assignment\Vandamme_René_1DAE5_AMPTheRussiansInvadedTheMoon\TheRussiansInvadedTheMoon\TheRussiansInvadedTheMoon.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BulletList.cpp Fuelbase.cpp Moonlander.cpp
+         Moonlander.cpp
+     1>c:\users\rene\documents\dae\portfolio\possible work\lab08_game_assignment physics game\amp2game assignment\vandamme_rené_1dae5_amptherussiansinvadedthemoon\therussiansinvadedthemoon\moonlander.cpp(239): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+         Fuelbase.cpp
+         BulletList.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rene\Documents\DAE\Portfolio\possible work\Lab08_Game_Assignment physics game\AMP2Game Assignment\Vandamme_René_1DAE5_AMPTheRussiansInvadedTheMoon\TheRussiansInvadedTheMoon\Debug\TheRussiansInvadedTheMoon.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Rene\Documents\DAE\Portfolio\possible work\Lab08_Game_Assignment physics game\AMP2Game Assignment\Vandamme_René_1DAE5_AMPTheRussiansInvadedTheMoon\TheRussiansInvadedTheMoon\Debug\TheRussiansInvadedTheMoon.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rene\Documents\DAE\Portfolio\possible work\Lab08_Game_Assignment physics game\AMP2Game Assignment\Vandamme_René_1DAE5_AMPTheRussiansInvadedTheMoon\TheRussiansInvadedTheMoon\Debug\TheRussiansInvadedTheMoon.lib" /MACHINE:X86 Debug\TheRussiansInvadedTheMoon.res
+         Debug\AbstractGame.obj
+         Debug\Blackhole.obj
+         Debug\Bullet.obj
+         Debug\BulletList.obj
+         Debug\Fuelbase.obj
+         Debug\GameEngine.obj
+         Debug\GameWinMain.obj
+         Debug\Moonlander.obj
+         Debug\Russianbase.obj
+         Debug\RussianBaseBullet.obj
+         Debug\TheRussiansInvadedTheMoon.obj
+         TheRussiansInvadedTheMoon.vcxproj -> C:\Users\Rene\Documents\DAE\Portfolio\possible work\Lab08_Game_Assignment physics game\AMP2Game Assignment\Vandamme_René_1DAE5_AMPTheRussiansInvadedTheMoon\TheRussiansInvadedTheMoon\Debug\TheRussiansInvadedTheMoon.exe
+     1>Done Building Project "C:\Users\Rene\Documents\DAE\Portfolio\possible work\Lab08_Game_Assignment physics game\AMP2Game Assignment\Vandamme_René_1DAE5_AMPTheRussiansInvadedTheMoon\TheRussiansInvadedTheMoon\TheRussiansInvadedTheMoon.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.26

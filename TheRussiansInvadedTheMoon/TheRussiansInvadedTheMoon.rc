@@ -1,0 +1,23 @@
+//-----------------------------------------------------------------
+// Game Skeleton Resources
+// RC Source - X.rc - version 2013 v2_12 jan 2013 
+//-----------------------------------------------------------------
+
+//-----------------------------------------------------------------
+// Include Files
+//-----------------------------------------------------------------
+#include "Resource.h"
+
+//-----------------------------------------------------------------
+// Icons
+//-----------------------------------------------------------------
+IDI_BIG				ICON         "big.ico"
+IDI_SMALL			ICON         "small.ico"
+IDB_MOONLANDER		IMAGE		 "./resources/Spaceship.bmp"
+IDB_BACKGROUND		IMAGE		 "./resources/Background.bmp"
+IDB_FIRE			IMAGE		 "./resources/Fire.bmp"
+IDB_BLACKHOLE		IMAGE		 "./resources/Blackhole.bmp"
+IDB_RUSSIANBASE		IMAGE		 "./resources/Russianbase.bmp"
+IDB_RUSSIANBASEGUN  IMAGE		 "./resources/RussianbaseGun.bmp"
+IDB_EXPLOSION		IMAGE		 "./resources/Explosion.bmp"
+IDB_AMERICANFLAG	IMAGE		 "./resources/AmericanFlag.bmp"
